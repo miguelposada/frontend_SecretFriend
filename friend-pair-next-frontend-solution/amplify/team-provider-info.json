@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-friendpair-dev-190254-authRole",
+      "UnauthRoleArn": "arn:aws:iam::033912951918:role/amplify-friendpair-dev-190254-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::033912951918:role/amplify-friendpair-dev-190254-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-friendpair-dev-190254-deployment",
+      "UnauthRoleName": "amplify-friendpair-dev-190254-unauthRole",
+      "StackName": "amplify-friendpair-dev-190254",
+      "StackId": "arn:aws:cloudformation:us-east-1:033912951918:stack/amplify-friendpair-dev-190254/45959360-325a-11ee-9787-1223dd1d788d",
+      "AmplifyAppId": "d1j4pgu5wge15g"
+    },
+    "categories": {
+      "auth": {
+        "friendpair049f2540": {}
+      },
+      "function": {
+        "friendpairstaging93549fe1": {}
+      }
+    }
+  }
+}

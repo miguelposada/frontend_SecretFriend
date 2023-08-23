@@ -1,0 +1,13 @@
+type FriendPairs @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  user: String
+  loggedUserId: String
+  friend: String
+  Users: Users @hasOne
+}
+
+type Users @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  username: String
+  password: String
+}
